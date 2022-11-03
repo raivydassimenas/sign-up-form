@@ -10,10 +10,12 @@
 </head>
 
 <body>
+    <div class="wrapper">
     <aside>
         <logo></logo>
     </aside>
     <main>
+        <div class="main-content">
         <section>
             <p>
                 This is not a real online service! You know you need something
@@ -27,12 +29,48 @@
         <section>
             <fieldset>
                 <legend>Let's do this!</legend>
-            <form action="" method="post">
-
-            </form>
+                <form action="" method="post">
+                    <div class="inputs">
+                        <div class="input-row">
+                            <div class="input-elem">
+                                <label for="first-name">First Name</label>
+                                <input type="text" id="first-name" name="first-name" placeholder="Your first name">
+                            </div>
+                            <div class="input-elem">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" name="last-name" id="last-name" placeholder="Your Last Name">
+                            </div>
+                        </div>
+                        <div class="input-row">
+                            <div class="input-elem">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" placeholder="Your email">
+                            </div>
+                            <div class="input-elem">
+                                <label for="phone-number">Phone Number</label>
+                                <input type="text" name="phone-number" id="phone-number"
+                                    placeholder="Your phone number">
+                            </div>
+                        </div>
+                        <div class="input-row">
+                            <div class="input-elem">
+                                <label for="password">Password</label>
+                                <input type="password" name="password" id="password" placeholder="Your password">
+                            </div>
+                            <div class="input-elem">
+                                <label for="confirm-password">Confirm password</label>
+                                <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm password">
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit">Create Account</button>
+                </form>
             </fieldset>
+            <p>Already have an account? <a href="#">Log in</a></p>
         </section>
+        </div>
     </main>
+    </div>
 </body>
 
 </html>

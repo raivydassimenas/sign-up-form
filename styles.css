@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    width: 500px;
+    gap: 20px;
+    margin: auto;
+}
+
+aside {
+    flex: 1 1 auto;
+    background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
+    width: 200px;
+}
+
+main {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-elem {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+}
