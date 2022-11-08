@@ -29,22 +29,22 @@
         <section>
             <fieldset>
                 <legend>Let's do this!</legend>
-                <form action="" method="post">
+                <form action="" method="post" id="sign-up-form" onsubmit="return validateForm()">
                     <div class="inputs">
                         <div class="input-row">
                             <div class="input-elem">
                                 <label for="first-name">First Name</label>
-                                <input type="text" id="first-name" name="first-name" placeholder="Your first name">
+                                <input type="text" id="first-name" name="first-name" placeholder="Your first name" required>
                             </div>
                             <div class="input-elem">
                                 <label for="last-name">Last Name</label>
-                                <input type="text" name="last-name" id="last-name" placeholder="Your Last Name">
+                                <input type="text" name="last-name" id="last-name" placeholder="Your Last Name" required>
                             </div>
                         </div>
                         <div class="input-row">
                             <div class="input-elem">
                                 <label for="email">Email</label>
-                                <input type="email" name="email" id="email" placeholder="Your email">
+                                <input type="email" name="email" id="email" placeholder="Your email" required>
                             </div>
                             <div class="input-elem">
                                 <label for="phone-number">Phone Number</label>
@@ -71,6 +71,8 @@
         </div>
     </main>
     </div>
+
+    <script src="/sign-up-form.js"></script>
 </body>
 
 </html>
