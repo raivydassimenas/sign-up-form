@@ -4,10 +4,28 @@
 }
 
 .logo {
-    font-family: 'Norse Bold';
-    color: #000000;
+    display: flex;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+.odin-image {
+    height: 50px;
+    width: auto;
+    display: inline;
+}
+
+h1 {
+    display: inline;
+    font-family: 'Norse Bold';
+    color: #ffffff;
+    font-size: 50px;
 }
 
 .wrapper {
@@ -64,4 +82,11 @@ button {
   input:focus {
     border: #0000ff 1px solid;
     box-shadow: 2px 2px 2px #2828ea7e;
+  }
+
+  .copyright {
+    position: relative;
+    top: 159px;
+    color: #ffffff;
+    text-align: center;
   }
